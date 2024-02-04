@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Nunito&family=Playpen+Sans:wght@500&family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto&family=Rubik:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito, sans-serif;
+}
+body{
+    height: 100vh;
+}
+.section{
+    max-width: 800px;
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.container{
+    padding: 0;
+    box-shadow: 0px 0px 0.1px 0.1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.form{
+    padding: 20px 0;
+    max-width: 800px;
+    width: 100%;
+    height: 100%;
+    margin: auto 0;
+    border-radius: 5px;
+    /* background-color: white; */
+
+}
+.input-field{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-field .input{
+    width: 100%;
+    
+}
+    .input{
+        width: 100%;
+        display: block;
+        height: 52px;
+        background-color: rgb(236, 225, 225);
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 0.96rem;
+    }
+    .input::placeholder{
+        color: rgb(0, 0, 0);
+        
+    }
+
+.select{
+    padding: 10px 30px;
+}
+span{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.721);
+}
+.submit{
+    height: 52px;
+    width: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 204, 0.681);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    position: relative;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: Playpen, sans-serif;
+}
+.table{
+    overflow: auto;
+    text-align: center;
+    margin: 20px;
+}
+.table h3{
+    text-align: center;
+    font-size: 1.9rem;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 2px 2px black;
+    table-layout: fixed;
+}
+table caption{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+td, th{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+    width: 25%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+th{
+    background-color: rgba(175, 175, 255, 0.454);
+}
+td{
+    padding: 5px;
+}
+td a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    background-color: red;
+    padding: 4px 0;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 7px 0;
+    width: 15vw;
+    max-width: 100px;
+    font-weight: bold;
+}
+.edit{
+    background-color: rgba(0, 128, 0, 0.753);
+}
+.delete{
+    background-color: rgb(255, 0, 0);
+}
+.button{
+    text-align: right;
+}
+.bgremove{
+    background-color: transparent;
+}

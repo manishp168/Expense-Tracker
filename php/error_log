@@ -1,0 +1,2 @@
+[04-Feb-2024 08:38:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/cashflow/public_html/Expense/php/config.php on line 2
+[04-Feb-2024 09:10:21 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/cashflow/public_html/Expense/php/config.php on line 2
